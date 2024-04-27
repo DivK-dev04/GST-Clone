@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: rgb(16, 5, 71);
+    margin: 0px;
+    padding-right: 60px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.first li {
+    float: right;
+}
+
+.first li a {
+    color: white;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second {
+    background-color: rgb(47, 41, 124);
+    height: 75px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.sideimg {
+    list-style: none;
+    display: inline;
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.third {
+    background-color: rgb(80, 80, 181);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.thirdul {
+    list-style-type: none;
+    /* float: left; */
+    margin-left: 40px;
+    display: flex;
+}
+
+.thirdul li a {
+    /* display: block; */
+    color: white;
+    /* text-align: center; */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.thirdul li {
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.thirdul li a:hover {
+    color: cadetblue;
+}
+
+.hero-banner {
+    background-image: url('https://ni.scene7.com/is/image/ni/310550_header_1440x644?scl=1');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bell {
+    background-color: bisque;
+    height: 20px;
+    width: 100%;
+}
+
+.fa-bell {
+    margin-left: 20px;
+}
+
+.services {
+    width: 85%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    height: 600px;
+    display: flex;
+    gap: 20px;
+}
+
+.news-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left {
+    width: 45%;
+    /* background-color: chartreuse; */
+    height: inherit;
+}
+
+.right {
+    width: 55%;
+    /* background-color: cadetblue; */
+    height: inherit;
+}
+
+.news-ul {
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.news-ul li a {
+    text-decoration: none;
+}
+
+.news-ul li {
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+
+.news-list {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid black;
+}
+
+.news-ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.news-head a {
+    text-decoration: none;
+}
+
+.news-head a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* .news-ul .view{
+    float: right;
+    margin: auto;
+} */
+.view {
+    text-align: right;
+}
+
+.taxpayers {
+    padding: 10px;
+}
+
+.tax-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightblue;
+    border-bottom: 2px solid blue;
+}
+
+.tax-div a {
+    text-decoration: none;
+}
+
+.fa-lock,
+.fa-user {
+    padding: 10px;
+}
+
+.tax-div a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.taxpayer,
+.GST {
+    margin-top: 20px;
+}
+
+.pop {
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    padding: 15px;
+}
+
+.left-links ul a,
+.right-links ul a {
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.left-links ul a:hover,
+.right-links ul a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.u-link {
+    /* background-color: chocolate; */
+    padding: 10px;
+}
+
+.help {
+    background-color: rgba(20, 49, 93, 255);
+    padding: 5px;
+    color: white;
+    padding-right: 50px;
+}
+
+.lodge {
+    background-color: rgba(20, 49, 93, 255);
+    padding: 5px;
+}
+
+.u-link a {
+    text-decoration: none;
+}
+
+.u-link a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.lodge a {
+    text-decoration: none;
+    color: white;
+}
+
+.lodge a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.right-top {
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 5px;
+}
+
+.footer {
+    /* background-color: rgba(20,49,93,255); */
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer1 {
+    background-color: rgba(20, 49, 93, 255);
+    height: 350px;
+    width: inherit;
+    border-bottom: 2px solid rgba(51, 77, 116, 255);
+}
+
+.copyright {
+    background-color: rgba(20, 49, 93, 255);
+    height: 100px;
+    width: inherit;
+}
+
+.footer3 {
+    background-color: rgba(44, 78, 134, 255);
+    height: 50px;
+    width: inherit;
+}
+
+.dates {
+    display: flex;
+    padding: 10px;
+}
+
+.dates a {
+    text-decoration: none;
+}
+
+.dates a:hover {
+    text-decoration: underline;
+}
+
+.tab1 {
+    width: 100%;
+    table-layout: fixed;
+}
+.tr{
+    display: grid;
+}
+
+.tab1,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+td:nth-child(odd) {
+    background-color: #1d867a;
+}
+
+td {
+    padding: 5px;
+}
+.f3div{
+    width: 85%;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    font-size: 15px;
+}
